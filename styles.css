@@ -14,11 +14,10 @@ body {
     border-radius: .4rem;
     max-width: 325px;
     max-height: auto;
-    /* margin: 4rem; */
 }
 
 .section-one {
-    background: #000 url(/images/image-header-mobile.jpg); 
+    background: #000 url(./images/image-header-mobile.jpg); 
     background-size: cover;
     width: 100%;
     height: 13rem;
@@ -60,17 +59,21 @@ span {
     color: hsl(277, 64%, 61%);
 }
 
+.stats p.description {
+    text-transform: uppercase;
+}
+
 @media only screen and (min-width: 950px) {
     
     .container {
-        max-width: 925px;
+        min-width: 925px;
         max-height: 525px;
         display: flex;
         flex-direction: row-reverse;
     }
 
     .section-one {
-        background: #000 url(/images/image-header-desktop.jpg); 
+        background: #000 url(./images/image-header-desktop.jpg); 
         background-size: cover;
         width: 50%;
         height: auto;
